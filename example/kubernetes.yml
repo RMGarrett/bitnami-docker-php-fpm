@@ -146,7 +146,7 @@ items:
             timeoutSeconds: 1
           volumeMounts:
           - name: nginx-server-blocks
-            mountPath: /bitnami/nginx/conf/server_blocks
+            mountPath: /opt/bitnami/nginx/conf/server_blocks
         volumes:
         - name: nginx-server-blocks
           configMap:
